@@ -1,10 +1,5 @@
 (function ($) {
   $.fn.select2.amd.require(['select2/multi-checkboxes/dropdown', 'select2/multi-checkboxes/selection', 'select2/multi-checkboxes/results'], function(DropdownAdapter, SelectionAdapter, ResultsAdapter){
-    $('.select2-original').select2({
-      placeholder: 'Select items',
-      closeOnSelect: false
-    });
-  
     $('.select2-multiple').select2({
       placeholder: 'Select items',
       closeOnSelect: false,
