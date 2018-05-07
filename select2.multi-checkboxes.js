@@ -107,18 +107,6 @@
           all: this.$element.find('option') || []
         };
 
-        // if(data.length > 0 && data[0].id == -1)
-        // {
-        //   this.prototype.isUpdating = true;
-        //   data.shift();
-
-          // itemsData.selected = $.map(itemsData.all, function(x) { x.selected = !x.selected; return x;});
-
-        //   $(this.$element).val(ids).bind('change', function(){
-        //     this.prototype.isUpdating = false;
-        //   });
-        // }
-
         formatted = this.display(itemsData, $rendered);
       }
 
